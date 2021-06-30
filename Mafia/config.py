@@ -1,5 +1,5 @@
-# Mafia- 
-# Copyright (C) 2021  Shinchan
+# Music-
+# Copyright (C) 2021  harsh
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
 # published by the Free Software Foundation, either version 3 of the
@@ -31,9 +31,9 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "mafia_music_player")
-PROJECT_NAME = getenv("PROJECT_NAME", "Mafiamusic")
-SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/Shinchan7222/MAFIAMUSICBOT")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "music_player")
+PROJECT_NAME = getenv("PROJECT_NAME", "music")
+SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/harshharshal935/music bot")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())

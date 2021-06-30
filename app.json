@@ -1,8 +1,8 @@
 {
-  "name": "MafiaMusic",
+  "name": "Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Shinchan7222/MAFIAMUSICBOT",
+  "repository": "https://github.com/Harshal935/MUSICBOT",
   "logo": "https://telegra.ph/file/b615d2574c163a5e34933.jpg",
   "stack": "container",
   "env": {
@@ -21,12 +21,12 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "MafiaBot"
-    },
+      "value": "Musicbot"
+    }
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "Mafiamusic"
+      "value": "music"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
